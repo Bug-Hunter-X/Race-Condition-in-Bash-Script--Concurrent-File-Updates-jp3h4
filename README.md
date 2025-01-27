@@ -1,0 +1,1 @@
+This repository contains a bash script that demonstrates a race condition bug. The script uses multiple processes to increment a counter stored in a file.  Due to the concurrent nature of the updates, the final counter value may not be the expected value (10 in this example). A solution is also provided that demonstrates how to prevent this race condition using a mutex (lock).
